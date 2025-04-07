@@ -10,11 +10,26 @@
     "generate-pokemons": "node src/data/generatePokemonsJson.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.18.2"
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "react-router": "^7.4.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkerkeb-class/pokedex-api-Maat05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zkerkeb-class/pokedex-api-Maat05/issues"
+  },
+  "homepage": "https://github.com/zkerkeb-class/pokedex-api-Maat05#readme"
 }
