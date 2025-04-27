@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 const pokemonsData = JSON.parse(fs.readFileSync(path.join(__dirname, './data/pokemons.json')));
 
 // Connexion à la BDD
-mongoose.connect('mongodb://192.168.1.132:27017/Pokedex', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/Pokedex', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(async () => {
     console.log("📦 Connecté à MongoDB");
 
